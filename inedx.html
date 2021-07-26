@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header> 
+            <nav class="navbar p-0 mt-4 navbar-expand-lg navbar-expand-md  navbar-light transition">
+                <div class="container p-3">
+                  <a class="navbar-brand" href="#"> <img src="image/logo-dark.png" alt="" ></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse   navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto  d-flex align-items-center fs-5 mb-2 mb-lg-0">
+                      <li class="nav-item">
+                  <div class="collapse text-white  navbar-collapse" id="navbarSupportedContent">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Page 1</a></li>
+                          <li><a class="dropdown-item" href="#"> Page 2 </a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#"> Page 3  </a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Friends
+                        </a>
+                        <ul class="dropdown-menu bg-success fw-bold" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Jubayer</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#"> Maruf</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Anamul  </a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Jishan  </a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Pique  </a></li>
+                          
+                        </ul>
+                      </li>
+                      <a  class="button text-white ml-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Sign Up
+                    </a>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                      <label for="inputEmail4" class="form-label">First Name</label>
+                                      <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputPassword4" class="form-label">Last Name</label>
+                                      <input type="text" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-12">
+                                      <label for="inputAddress" class="form-label">Email</label>
+                                      <input type="text" class="form-control" id="inputAddress" placeholder=" Enter Your Email">
+                                    </div>
+                                    <div class="col-12">
+                                      <label for="inputAddress2" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="inputAddress2" placeholder="Enter Your Password">
+                                    </div>
+                                    <div class="col-md-6">
+                                      <label for="inputCity" class="form-label">City</label>
+                                      <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-4">
+                                      <label for="inputState" class="form-label">State</label>
+                                      <select id="inputState" class="form-select">
+                                        <option selected>Choose Ahad</option>
+                                        <option>Ahad</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                      <label for="inputZip" class="form-label">Zip</label>
+                                      <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="form-check d-flex">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label me-5" for="flexRadioDefault1">
+                                          Male
+                                        </label>
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                          Female
+                                        </label>
+                                      </div>
+                                    <div class="col-12">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                          Check me out
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <div class="col-12">
+                                      <button type="submit" class="btn btn-primary">Sign in</button>
+                                    </div>
+                                  </form>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+    </header>
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/pexels-engin-akyurt-2092064.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/pexels-fwstudio-139324.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/pexels-gdtography-950241.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/pexels-sharon-mccutcheon-1191710.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section>
+        <div class="container px-3 mt-3">
+          <div class="row gx-5">
+            <div class="col">
+             <div class="">
+              <div class="card">
+                <img src="image/me2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+             </div>
+            </div>
+            <div class="col">
+             <div class="">
+              <div class="card">
+                <img src="image/me2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+             </div>
+            </div>
+            <div class="col">
+             <div class="">
+              <div class="card" >
+                <img src="image/me2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+             </div>
+            </div>
+            <div class="col">
+              <div class="">
+                <div class="card">
+                  <img src="image/me2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+<div class="float">
+  <div class="container d-flex align-items-center justify-content-between">
+    <div class="row justify-content-evenly">
+      <div class="col-4">
+        <h1 class="text">Build <br> Your Business Together</h1>
+      </div>
+      <div class="col-4">
+        <img src="image/me2.png" alt="">
+      </div>
+    </div>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
